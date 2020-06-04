@@ -1,0 +1,108 @@
+
+.inicio{
+    /* background-color: gainsboro;  */
+    background-image: url("../../media/Assets/waves\ shapes/inicio2.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+}
+.text-ini {
+    margin-top: 1.7rem;
+    color: white;
+}
+.banner img {
+    /* background-color: black !important; */
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contenedor .list-li {
+    margin-top: 1rem;
+    margin-bottom: 3rem !important;
+    color: white;
+}
+.btn-wrapper {
+    display: flex;
+    align-items: flex-start;
+    align-content: space-between;
+}
+.btn-ini {
+    margin: 0 2rem;
+    transition: all 0.4s ease 0s;
+}
+
+.btn-ini:hover {
+    color: white !important;
+     /*background-color: #7d9ec0;
+    border-color: black; */
+    background: #434343;
+    letter-spacing: 1px;
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+
+@media only screen and (max-width: 375px) {
+    .inicio {
+        background-size: cover;
+        background-position: left;
+    }
+    .columns.is-mobile {
+        flex-direction: column-reverse;
+    }
+    .contenedor {
+        display: flex;
+        /* flex-direction: column-reverse; */
+        align-items: center;
+    }
+    .btn-wrapper .is-medium {
+        font-size: 1rem !important;
+    }
+    .btn-ini {
+        margin: 0 0;
+        size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .inicio {
+        background-size: cover;
+        background-position: left;
+    }
+    .columns.is-mobile {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (orientation:landscape)
+and (max-device-width: 667px) {
+   /* Your CSS Here*/
+   .inicio {
+        background-size: cover;
+        background-position: left top;
+        background-color: #041146;
+   }
+   .columns.is-mobile {
+        flex-direction: column-reverse;
+    }
+    .col2_inicio {
+        display: none !important;
+    }
+}
+
+@media screen and (orientation:landscape)
+and (max-device-width: 736px) {
+   /* Your CSS Here*/
+   .inicio {
+        background-size: cover;
+        background-position: left top;
+        background-color: #041146;
+   }
+   .columns.is-mobile {
+        flex-direction: column-reverse;
+    }
+    .col2_inicio {
+        display: none !important;
+    }
+}

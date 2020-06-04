@@ -1,0 +1,138 @@
+
+
+.column_card {
+    margin-top: 1rem;
+}
+.tile_padre .contenedor_padre:first-child {
+    margin-right: 1rem;
+    margin-left: 2rem;
+}
+.tile_padre .contenedor_padre:nth-child(2) {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.tile_padre .contenedor_padre:nth-child(3) {
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.tile_padre .contenedor_padre:last-child {
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+.contenedor_padre {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 
+                0 6px 20px 0 rgba(0, 0, 0, 0.19),
+                0 -6px 10px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+}
+.contenedor_padre .p_catacteristica {
+    padding: 1rem 1.8rem;
+}
+.contenedor_padre img {
+    display: block;
+    margin: auto;
+    width: 40%;
+    margin-bottom: 1rem;
+}
+
+/* segnda parte de diseño */
+.column_2 {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    margin-top: 3rem;
+    padding: 2rem 0;
+}
+.column_2 h1,
+.column_2 p {
+    color: white;
+    font-weight: 500;
+    font-size:large;
+}
+.col2_content {
+    margin: auto;
+}
+.list_li p svg {
+    margin-right: 1rem;
+}
+.list_li {
+    margin: 0rem 4rem;
+    margin-top: 2rem;
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@media only screen and (min-width: 374) and  (max-width: 375px)  {
+    .design_section {
+        padding-top: 1rem !important;
+    }
+    .design_section .column_2 {
+        padding: 0;
+    }
+    .column_descp {
+        padding: 1rem 1.5rem;
+    }
+    .column_card {
+        padding: 0rem 1.5rem;
+    }
+
+    .tile_padre .contenedor_padre {
+        margin: 0;
+        margin-bottom: 1.5rem;
+    }
+
+    /* columna 3 */
+    .column_2 p {
+        font-size: 0.9rem;
+    }
+    .list_li {
+        margin: 0rem 2rem;
+    }
+
+    .feature_contenedor {
+        padding: 1.5rem 3rem !important
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .tile_padre .contenedor_padre {
+        margin: 0 2rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+    /* columna 3 */
+    .column_2 p {
+        font-size: 0.9rem;
+    }
+    .list_li {
+        margin: 0rem 2rem;
+    }
+    .feature_contenedor {
+        padding: 0 2rem !important;
+    }
+}
+
+@media screen and (orientation:landscape)
+and (max-device-width: 667px) {
+   /* Your CSS Here*/
+   .tile_padre .contenedor_padre {
+        margin: 0 2rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+}
+@media screen and (orientation:landscape)
+and (max-device-width: 736px) {
+   /* Your CSS Here*/
+   .tile_padre .contenedor_padre {
+        margin: 0 2rem !important;
+        margin-bottom: 1.5rem !important;
+    }
+}

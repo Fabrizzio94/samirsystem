@@ -1,0 +1,22 @@
+.footer-area {
+    background-color: #262626 !important;
+    display: flex;
+}
+
+.wrapper_col1 h1,
+.wrapper_col2 h1,
+.wrapper_col3 h1 {
+    color: white;
+}
+.list_footer li {
+    color: white;
+    cursor: pointer;
+    margin: 8px 0;
+}
+.list_footer li:hover {
+    color: rgba(33, 127, 189, 0.904);
+}
+.list_footer li svg {
+    margin-right: 1rem;
+}
+

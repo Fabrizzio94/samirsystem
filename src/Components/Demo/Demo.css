@@ -1,0 +1,132 @@
+
+.demo_section {
+    background: gainsboro;
+    padding-left: 10rem;
+}
+iframe {
+    height: 100%;
+}
+.contenedor_demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.content h6 {
+    margin-bottom: 3rem;
+}
+.btn-wrapper {
+    display: flex;
+}
+.btn-wrapper button {
+    margin: 0rem 1rem;
+}
+.demo_btn-wrapper .soli_demo {
+    margin-right: 2rem !important;
+}
+.demo_btn-wrapper .btn_tvr {
+    margin-left: 2rem !important;
+}
+.demo_btn-wrapper button:hover {
+    color: white;
+    background: #2095d8;
+    letter-spacing: 1px;
+    box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+    transition: all 0.4s ease 0s;
+}
+.demo_btn-wrapper .soli_demo svg,
+.demo_btn-wrapper .btn_tvr svg {
+    margin-right: 10px;
+}
+
+
+@media only screen and (max-width: 375px)  {
+    .demo_section {
+        padding: 0 !important;
+    }
+    iframe {
+        height: auto;
+    }
+    .contenedor_demo h6 {
+        padding: 0 2rem;
+        margin-bottom: 1.5rem;
+    }
+    .demo_description {
+        padding: 0rem 1rem;
+    }
+    .demo_btn-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .demo_btn-wrapper button {
+        margin: 0rem 1rem;
+    }
+    .demo_btn-wrapper .soli_demo {
+        margin-bottom: 15px;
+    }
+    .demo_btn-wrapper button:hover {
+        color: white;
+        background: #2095d8;
+        box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+        transition: all 0.4s ease 0s;
+    }
+    
+    .player,
+    .col_video .player div {
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .demo_section {
+        padding: 0 3rem;
+    }
+
+    .demo_btn-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .demo_btn-wrapper .soli_demo {
+        margin: 0 !important;
+        margin-bottom: 1rem !important;
+    }
+    .demo_btn-wrapper .btn_tvr {
+        margin: 0 !important;
+    }
+
+    .player {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (orientation:landscape)
+and (max-device-width: 667px) {
+   /* Your CSS Here*/
+   .demo_section {
+        padding: 0 3rem;
+    }
+    .content h6 {
+        margin-bottom: 1rem;
+    }
+    .demo_btn-wrapper {
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (orientation:landscape)
+and (max-device-width: 736px) {
+   /* Your CSS Here*/
+   .demo_section {
+        padding: 0 3rem;
+    }
+    .content h6 {
+        margin-bottom: 1rem;
+    }
+    .demo_btn-wrapper {
+        margin-bottom: 2rem;
+    }
+}
