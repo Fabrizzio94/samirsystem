@@ -1,6 +1,6 @@
 import React from 'react';
 import './PoliticasPrivacidad.css';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import Container from 'react-bulma-components/lib/components/container';
 import Columns from 'react-bulma-components/lib/components/columns';
 import Tag from 'react-bulma-components/lib/components/tag';
@@ -96,7 +96,7 @@ const PoliticasPrivacidad = () => {
                             <p>Utilizamos los demás datos que poseemos sobre usted para los siguientes propósitos generales: para proporcionarle servicios que haya solicitado; 
                                 para gestionar su cuenta; para comunicarnos en general con usted; para responder a sus preguntas y comentarios; para notificarle las ofertas especiales que puedan interesarle; 
                                 para impedir actividades posiblemente prohibidas o ilegales; para hacer respetar nuestras Condiciones del Servicio, que podrá encontrar en 
-                                <a className="privacidadComponetanchor" href="https://www.excellentsoft.net/legal/terms"> https://www.excellentsoft.net/legal/terms</a> y para las demás finalidades que encontrará descritas en el momento de recabar la información.
+                                <Link className="privacidadComponetanchor" to='/terminos'> Términos y Condiciones</Link>, y para las demás finalidades que encontrará descritas en el momento de recabar la información.
                             </p>
                             <p></p>
                         </Content>
@@ -111,8 +111,8 @@ const PoliticasPrivacidad = () => {
                             </p>
                             <ol>
                                 <li>Para responder a citaciones, órdenes o procedimiento judiciales;</li>
-                                <li>Si lo consideramos necesario, a nuestra total discreción, con objeto de investigar, evitar o interponer demandas contra actividades ilegales, supuestos fraudes, situaciones de emergencia que amenacen la seguridad física de alguna persona, o que supongan un incumplimiento de nuestros Términos y Condiciones, 
-                                    ubicados en <a className="privacidadComponetanchor" href="https://www.excellentsoft.net/legal/terminos">https://www.excellentsoft.net/legal/terminos</a>, o según lo determine la ley.
+                                <li>Si lo consideramos necesario, a nuestra total discreción, con objeto de investigar, evitar o interponer demandas contra actividades ilegales, supuestos fraudes, situaciones de emergencia que amenacen la seguridad física de alguna persona, o que supongan un incumplimiento de nuestros  
+                                    <Link className="privacidadComponetanchor" to='/terminos'> Términos y Condiciones</Link>, o según lo determine la ley.
                                 </li>
                             </ol>
                         </Content>

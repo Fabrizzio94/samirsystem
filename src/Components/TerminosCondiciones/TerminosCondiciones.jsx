@@ -6,6 +6,7 @@ import Tag from 'react-bulma-components/lib/components/tag';
 import Content from 'react-bulma-components/lib/components/content';
 import Heading from 'react-bulma-components/lib/components/heading';
 import Notification from 'react-bulma-components/lib/components/notification';
+import { Link } from 'react-router-dom';
 const TerminosCondiciones = () => {
     return(
         <section className="terminos_section">
@@ -71,7 +72,7 @@ const TerminosCondiciones = () => {
                                 <strong>ExcellentSoft™</strong> podrá rechazar cualquier solicitud de registración o, cancelar una registración previamente aceptada, sin que tal decisión deba ser justificada, y sin que ello genere derecho alguno en beneficio del Usuario.
                             </p>
                             <p>
-                                <strong>ExcellentSoft™</strong> utilizará la información suministrada por el usuario exclusivamente con el objeto expuesto en las <a href="/politca"> Políticas de Privacidad</a>.
+                                <strong>ExcellentSoft™</strong> utilizará la información suministrada por el usuario exclusivamente con el objeto expuesto en las <Link className="privacidadComponetanchor" to="/politicas"> Políticas de Privacidad</Link>.
                             </p>
                             <p>
                                 Pero atento que <strong>ExcellentSoft™</strong> pone en conocimiento de los usuarios que www.excellentsoft.net no garantiza la inviolabilidad de sus sistemas, motivo por el cual los usuarios deberán tomar en consideración esta circunstancia al momento de decidir su registración.
