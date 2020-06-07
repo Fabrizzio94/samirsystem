@@ -1,0 +1,16 @@
+.terminos_section {
+    box-shadow: 0px 0px 2px 1px rgba(138,138,138,0.3) !important;
+    width: 80%;
+    margin: 3% auto;
+    padding: 3% 5%;
+    margin-top: 0;
+}
+
+
+.terminos_bg-alert {
+    background: #ffecb3 !important;
+    border-left: 4px solid;
+    border-left-color: #FFCA28;
+    margin-left: 20px;
+    font-size: 16px;
+}

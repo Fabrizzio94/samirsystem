@@ -1,4 +1,6 @@
 import React from 'react'
+
+import { Link } from 'react-router-dom'
 import './Footer.css';
 import Columns from 'react-bulma-components/lib/components/columns';
 import Heading from 'react-bulma-components/lib/components/heading';
@@ -39,8 +41,8 @@ const Footer = () => {
                                 <Heading>Acerca de Excellentsoft™?:</Heading>
                                 <ul className="list_footer">
                                     <li><FontAwesomeIcon icon={faUser} />Acerca de Nosotros</li>
-                                    <li><FontAwesomeIcon icon={faShieldAlt} />Politicas de Privacidad</li>
-                                    <li><FontAwesomeIcon icon={faFileSignature} />Terminos y Condiciones</li>
+                                    <li><Link to="/politicas"> <FontAwesomeIcon icon={faShieldAlt} />Politicas de Privacidad</Link></li>
+                                    <li><Link to="/terminos" ><FontAwesomeIcon icon={faFileSignature} />Terminos y Condiciones </Link></li>
                                 </ul>
                             </div>
                         </Columns.Column>

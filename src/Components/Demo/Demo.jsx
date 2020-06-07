@@ -12,7 +12,7 @@ import { faDownload, faPaperPlane } from '@fortawesome/free-solid-svg-icons';
 import ReactPlayer from 'react-player';
 const Demo = () => {
     return(
-        <Section className="demo_section">
+        <Section id={'demoSection'} className="demo_section">
             <Columns breakpoint="mobile" className="is-vcentered" variableGap={{mobile: 3, desktop: 8}}>
                 <Columns.Column mobile={{size: 12}} desktop={{size: 6}}  tablet={{size:6}}>
                     <Content className="contenedor_demo" >

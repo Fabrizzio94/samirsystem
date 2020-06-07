@@ -1,0 +1,48 @@
+.politica_section {
+    box-shadow: 0px 0px 2px 1px rgba(138,138,138,0.3) !important;
+    width: 80%;
+    margin: 3% auto;
+    padding: 3% 5%;
+    margin-top: 0;
+}
+.tag_privacidad {
+    margin: 0rem 0.5rem 1rem;
+}
+.contenedor_politicas .list_politicas {
+    list-style: none;
+}
+.subtitle_privacidad {
+    color: #455A64;
+}
+hr {
+    width: 90%;
+    border: 0;
+    text-align: center;
+    height: 2px;
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%,
+                            rgba(168,168,168,0.44) 51%, 
+                            rgba(170,170,170,0.44) 52%, rgba(255,255,255,0) 100%);
+}
+.privacidadComponetanchor {
+    color: dodgerblue !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+.bg-alert {
+    background: #ffecb3 !important;
+    border-left: 4px solid;
+    border-left-color: #f30;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.bg-alert .privacidadComponetanchor {
+    color: dodgerblue !important;
+    font-weight: bold !important;
+    text-decoration: none !important;
+}
+.bg-success {
+    background: #c8e6c9 !important;
+    border-left: 4px solid #66BB6A;
+    margin-left: 20px;
+    font-size: 16px;
+}

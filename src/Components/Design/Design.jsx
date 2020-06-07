@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCheckCircle } from '@fortawesome/free-solid-svg-icons';
 const Design = () => {
     return (
-        <Section className="design_section">
+        <Section id={'designSection'} className="design_section">
                 <Columns breakpoint="mobile" className="is-vcentered column_descp" variableGap={{mobile: 3, desktop: 8}}>
                     <Columns.Column mobile={{size: 12}} desktop={{size: 12}}  tablet={{size:12}}>
                         <Heading className="has-text-centered" >Componentes de Samir System</Heading>

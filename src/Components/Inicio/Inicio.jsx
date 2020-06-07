@@ -12,7 +12,7 @@ import Image from 'react-bulma-components/lib/components/image';
 import Button from 'react-bulma-components/lib/components/button';
 const Inicio = () => {
     return (
-        <Section className="inicio">
+        <Section id={'inicioSection'} className="inicio">
             <Container>
                 <Columns breakpoint="mobile" className="is-vcentered" variableGap={{mobile: 3, desktop: 8}}>
                     <Columns.Column mobile={{size: 12}} desktop={{size: 6}}  tablet={{size:6}}>

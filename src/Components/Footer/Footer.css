@@ -13,7 +13,13 @@
     cursor: pointer;
     margin: 8px 0;
 }
-.list_footer li:hover {
+.list_footer li a {
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+.list_footer li:hover,
+.list_footer li a:hover {
     color: rgba(33, 127, 189, 0.904);
 }
 .list_footer li svg {

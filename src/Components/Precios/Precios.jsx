@@ -21,7 +21,7 @@ const Precios = () => {
 
 
     return(
-        <Section>
+        <Section id={'precioSection'}>
             <Container>
                 <Heading className="has-text-centered" >Precios y Licencias</Heading>
 
